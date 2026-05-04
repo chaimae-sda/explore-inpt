@@ -8,9 +8,9 @@ import {Navbar} from './components/Navbar'
 
 function App() {
   return (
-      <div>
+      <div className=' '>
         <Navbar/>
-        <div>
+        <div className=''> 
           <Routes>
             <Route path='/' element={<Event/>}/>
             <Route path='/club' element={<Clubs/>}/>
