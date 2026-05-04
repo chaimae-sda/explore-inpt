@@ -20,7 +20,7 @@ export const Navbar = () => {
                         <div className="h-8 w-px bg-slate-300 rounded-full"></div>
                         <span className="text-2xl font-bold tracking-tight">
                             <span className="text-slate-900">Explore</span>
-                            <span className="text-[#007ac3]">Inpt</span>
+                            <span className="text-[#007ac3]">INPT</span>
                         </span>
                     </Link>
 
