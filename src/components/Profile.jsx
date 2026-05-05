@@ -1,7 +1,7 @@
 import ProfileHeader from "./ProfileHeader";
 import ProfileInfo from "./ProfileInfo";
 import ProfileClubs from "./ProfileClubs";
-import "./pages/profile.css";
+import "../pages/profile.css";
 
 
 

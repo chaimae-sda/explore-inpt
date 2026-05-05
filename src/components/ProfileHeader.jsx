@@ -1,4 +1,4 @@
-import "./pages/profile.css";
+import "../pages/profile.css";
 
 
 function ProfileHeader() {
