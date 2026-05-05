@@ -1,6 +1,6 @@
 
 import { Event } from './pages/Events';
-import { Route, Routes } from 'react-router';
+import { Route, Routes } from 'react-router-dom';
 import { Clubs } from './pages/Clubs';
 import { Profile } from './pages/Profile';
 import { Auth } from './pages/Auth';
