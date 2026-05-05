@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f5f6fa;
+    color: #0D1B2A;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0D1B2A 0%, #1A8FE3 50%, #0D1B2A 100%);
+  color: white;
+  gap: 20px;
+  margin: 22px 40px;
+  flex-wrap: wrap; 
+}
+.profile-header-image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+}
+.profile-header-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+.profile-header-image button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+}
+.profile-header-infos-1,
+.profile-header-infos-2 {
+  min-width: 250px;
+}
+
+.profile-header-infos-1 {
+  flex: 1;
+}
+.profile-header-info-1-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-header-info-1-1 h1 {
+  margin: 0;
+  font-size: 34px;
+}
+.profile-header-info-1-1 p{ 
+  background: rgba(255,255,255,0.3);
+  padding: 4px 6px;
+  border-radius: 10px;
+  margin: 0px;
+  font-size: 12px;
+}
+.profile-header-infos-1 p {
+  margin: 9px 0;
+  opacity: 0.9;
+}
+.profile-header-infos-2 {
+  max-width: 300px;
+  background: rgba(255, 255, 255, 0.219);
+  padding: 15px;
+  border-radius: 15px;
+  border: #f5f6fa9d 1px dashed;
+}
+.profile-header-description {
+  font-size: 15px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+
+.profile-info {
+  display: flex;
+  gap: 15px;
+  padding: 0px 70px;
+  background: #f5f6ff;
+  justify-content: space-between;
+  margin: 22px 40px;
+
+  flex-wrap: wrap;
+}
+.profile-card {
+  background: #1380f336;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+  flex: 1;
+  min-width: 280px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+.card-header h2 {
+  font-size: 20px;
+  color: #040055;
+}
+.edit-button {
+  background: rgba(255, 255, 255, 0.466);
+  border-radius: 15px;
+  padding: 5px 11px;
+  border: none;
+  color: #6c63ff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: auto; 
+}
+
+.card-header svg {
+  color: #6c63ff;
+  font-size: 34px;
+  margin-top: 2px;
+}
+
+.about {
+  flex: 1;
+}
+
+.bio-text {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.info-item svg {
+  color: #0d05a7;
+  font-size: 20px;
+  margin-top: -18px;
+}
+
+.info-item div p{
+  margin-top: -0.4px;
+}
+
+.info-item div span{
+  color: gray;
+  font-size: 15px;
+}
+
+
+
+.stats {
+  flex: 1;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+
+.stat-box {
+  padding: 15px 15px 5px 5px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+.stat-box h3{
+  margin: 0px;
+  font-weight: 900;
+  font-size: 28px;
+}
+.stat-box p{
+  margin: 0px 0px 12px 0px;
+  font-size: 20px;
+}
+
+.stat-box svg {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.purple { background:#6b6bc2bb ;}
+.blue { background: #1066b1b7;} 
+.green { background: #2cad57d2;}
+.orange { background: #9e942ac0; }
+
+
+
+.profile-clubs {
+  padding: 20px 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.club-card {
+  position: relative;
+  width: 250px;
+  height: 140px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.club-card:hover {
+  transform: translateY(-5px);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 50, 0.3),
+    rgba(0, 0, 80, 0.9)
+  );
+}
+
+.club-content {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+
+.club-content h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.club-content p {
+  margin: 5px 0;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  background-color: #3b82f6;
+}
+
+
+.profile-clubs-button {
+    
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e5e7eb;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile-clubs-button:hover {
+  background-color: #d1d5db;
+}
